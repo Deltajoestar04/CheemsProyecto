@@ -1,7 +1,7 @@
 from persistence.db import get_db_connection
 from mysql.connector import Error
 
-class Paquete:
+class Paquete: 
     def __init__(self, id=None, id_cliente=None, fecha_envio=None, fecha_llegada=None, tamano=None, codigo_paquete=None, estado=None):
         self.id = id  # El id del paquete
         self.id_cliente = id_cliente

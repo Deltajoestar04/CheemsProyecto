@@ -1,7 +1,7 @@
 from persistence.db import get_db_connection
 from mysql.connector import Error
 
-class Usuario:
+class Usuario: 
     def __init__(self, id=None, nombre=None, password=None, id_ciudad=None):
         self.id = id  # El id del usuario
         self.nombre = nombre
