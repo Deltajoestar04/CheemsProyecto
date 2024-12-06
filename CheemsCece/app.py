@@ -7,7 +7,7 @@ import bcrypt  # Librería para manejo de contraseñas seguras
 from random import randint  # Para generar códigos aleatorios
 
 app = Flask(__name__)
-
+  
 # Página principal
 @app.route('/')
 def index():
